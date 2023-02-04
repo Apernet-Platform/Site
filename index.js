@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
     res.render("index")
 })
 
+app.get("/app", (req, res) => {
+    res.render("app")
+})
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}!`)
 })
